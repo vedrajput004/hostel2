@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;400;500;700&family=Merriweather:wght@300;400;700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="../dist/img/favicon/logo3.png" />
+    <link rel="stylesheet" href="../dist/css/style.css" />
+    <script src="https://kit.fontawesome.com/d42682e293.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="../dist/css/flickyty.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
+    <title>Hostel</title>
+</head>
+
+<body id="body">
+    <!--navbar section-->
+
+    <section id="filter-section">
+        <div class="filter-option-container">
+            <div class="filter-bg-img">
+                <section class="nav-sticky">
+                    <div class="nav-bg" id="nav-classes">
+                        <nav class="navbar py-3 container-lg">
+                            <div class="navbar-1">
+                                <div class="container-fluid log-sign-1">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="../dist/img/logo/logo3.png" alt="Logo"
+                                            class="d-inline-block align-text-top logo" />
+                                    </a>
+                                    <label class="logo-name"><a href="#" class="logo-a">Hostel
+                                            Essentials</a></label>
+                                </div>
+                                <div class="nav-menu">
+                                    <div class="nav-sub-menu">
+                                        <ul class="nav-menu-ul">
+                                            <li><a href="#" class="logo-a">Home</a></li>
+                                            <li><a href="#" class="logo-a">Hostel</a></li>
+                                            <li><a href="#" class="logo-a">Back packers</a></li>
+                                            <li><a href="#" class="logo-a" id="a">Guest</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="log-sign-2">
+                                    <div class="header-24x7-div">
+                                        <div class="header-24x7">
+                                            <picture class="tele-icon">
+                                                <source media="" srcset="../dist/img/tele-icon/tele-icon.png"
+                                                    class="pic-tele-icon">
+                                                <img src="../dist/img/tele-icon/tele-icon.png"
+                                                    alt="this is discount image" height="100%" width="100%"
+                                                    class="telephone-icon">
+                                            </picture>
+                                            24x7
+                                            Helpline
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            <div class="mo-email-24x7">
+                                                <div class="mo-email-label">
+                                                    <a href="tel:985848858" class="mo-email-24x7-a"><span>Phone
+                                                            :</span></a>
+                                                    <a href="mailto:abc@gmail.com" class="mo-email-24x7-a"><span>Mail
+                                                            :</span></a>
+                                                </div>
+                                                <div class="mo-email-val">
+                                                    <a href="tel:985848858" class="tele-a"><span>+91
+                                                            9884758384</span></a>
+                                                    <a href="mailto:abc@gmail.com"
+                                                        class="mail-a"><span>abc@gmail.com</span></a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="login-div">
+                                        <div class="login login-a"><i class="fa-regular fa-user acc-icon"></i><span
+                                                class="login-span">My
+                                                Account</span><i class="fa-solid fa-chevron-down"></i></>
+
+                                            <div class="login-abso">
+                                                <div class="login-abso-flex">
+                                                    <div class="login-icon-img">
+                                                        <picture class="">
+                                                            <source media=""
+                                                                srcset="../dist/img/tele-icon/user-icon2.png"
+                                                                class="login-srcset">
+                                                            <img src="../dist/img/tele-icon/user-icon2.png"
+                                                                alt="this is discount image" height="100%" width="100%"
+                                                                class="login-src">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="login-btn">
+                                                        <button type="button">Login or signup</button>
+                                                    </div>
+                                                </div>
+                                                <div class="booking-ul">
+                                                    <ul>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid fa-caret-right booking-arrow"></i>My
+                                                                Booking</a></li>
+                                                        <li><a href="#"><i
+                                                                    class="fa-solid fa-caret-right booking-arrow"></i>Cancel
+                                                                Booking</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </section>
+            </div>
+            <div class="container-lg filter-options">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item bgg" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Hostel</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Back packers</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Guest</button>
+                    </li>
+                    <!-- <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled"
+                            aria-selected="false" disabled>Disabled</button>
+                    </li> -->
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="city-main-width">
+                            <div class="city-div-1">
+                                <label for="exampleDataList" class="form-label"><i
+                                        class="fa-solid fa-location-dot location-icon"></i><span>Enter City name,
+                                        Location or
+                                        Specific
+                                        hostel</span></label>
+                                <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                    placeholder="Type to search...">
+                                <datalist id="datalistOptions">
+                                    <option value="Rajkot">
+                                    <option value="Ahemdabad">
+                                    <option value="Jamnagar">
+                                    <option value="Surat">
+                                    <option value="Gandhinagar">
+                                </datalist>
+                            </div>
+                            <div class="city-div-2">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Please select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="city-div-3">
+                                <button type="button" class="btn city-search border">Search</button>
+                                <button type="button" class="btn city-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <div class="city-main-width">
+                            <div class="city-date-1">
+                                <label for="exampleDataList" class="form-label"><i
+                                        class="fa-solid fa-location-dot location-icon"></i><span>Enter City name,
+                                        Location or
+                                        Specific
+                                        hostel</span></label>
+                                <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                    placeholder="Type to search...">
+                                <datalist id="datalistOptions">
+                                    <option value="Rajkot">
+                                    <option value="Ahemdabad">
+                                    <option value="Jamnagar">
+                                    <option value="Surat">
+                                    <option value="Gandhinagar">
+                                </datalist>
+                            </div>
+                            <div class="city-date-2">
+                                <label for="how-manyp" class="form-label">How many people</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Please select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="city-date-3 datePicker">
+                                <div class="datePicker-sub-1">
+                                    <label for="datefrom" class="form-label">From</label>
+                                    <input type="date" name="" id="from-date" class="form-control">
+                                </div>
+                                <div>
+                                    <label for="datefrom" class="form-label">To</label>
+                                    <input type="date" name="" id="to-date" class="form-control">
+                                </div>
+                            </div>
+                            <div class=" city-date-4">
+                                <!-- <button type="button" class="btn city-search border">Search</button> -->
+                                <button type="button" class="btn city-submit" id="bgpk-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div class="city-main-width">
+                            <div class="city-date-1">
+                                <label for="exampleDataList" class="form-label"><i
+                                        class="fa-solid fa-location-dot location-icon"></i><span>Enter City name,
+                                        Location or
+                                        Specific
+                                        hostel</span></label>
+                                <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                    placeholder="Type to search...">
+                                <datalist id="datalistOptions">
+                                    <option value="Rajkot">
+                                    <option value="Ahemdabad">
+                                    <option value="Jamnagar">
+                                    <option value="Surat">
+                                    <option value="Gandhinagar">
+                                </datalist>
+                            </div>
+                            <div class="city-date-2">
+                                <label for="how-manyp" class="form-label">How many people</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Please select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="city-date-3 datePicker">
+                                <div class="datePicker-sub-1">
+                                    <label for="datefrom" class="form-label">From</label>
+                                    <input type="date" name="" id="from-date" class="form-control">
+                                </div>
+                                <div>
+                                    <label for="datefrom" class="form-label">To</label>
+                                    <input type="date" name="" id="to-date" class="form-control">
+                                </div>
+                            </div>
+                            <div class=" city-date-4">
+                                <!-- <button type="button" class="btn city-search border">Search</button> -->
+                                <button type="button" class="btn city-submit" id="bgpk-submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                        tabindex="0">...</div> -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="offer-section" class="offer-section">
+        <div class="offer-parent">
+            <div class="offer-child">
+                <h2>Exclusive Offers</h2>
+                <div class="offer-slider">
+                    <div class="carousel offer-padding">
+                        <div class="carousel-cell offer-slide">
+                            <a href="javascript:void(0)" rel="follow" area-label="this is discount image">
+                                <picture>
+                                    <source media="" srcset="../dist/img/discount/discount-1.jpg">
+                                    <img src="../dist/img/discount/discount-1.jpg" alt="this is discount image"
+                                        height="100%" width="100%" class="caraus-main-img">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="carousel-cell offer-slide">
+                            <a href="javascript:void(0)" rel="follow" area-label="this is discount image">
+                                <picture>
+                                    <source media="" srcset="../dist/img/discount/discount-2.jpg">
+                                    <img src="../dist/img/discount/discount-2.jpg" alt="this is discount image"
+                                        height="100%" width="100%" class="caraus-main-img">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hostel-detail" id="hostel-details">
+        <div class="hostel-sub-1">
+            <div class="hostel-sub-2">
+                <div class="hostel-subof-2">
+                    <span class="hostel-location-based1"><i class="fa-solid fa-location-dot"></i>Based on your
+                        location<span>,</span><span class="hostel-location-based2"
+                            id="search-location">Rajkot</span></span>
+                </div>
+                <div class="main-carousel" id="m-carousel">
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media=""
+                                    srcset="../dist/img/carousel-img/andrea-davis-NngNVT74o6s-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/andrea-davis-NngNVT74o6s-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-1</span>
+                        <p class="h-price">Book now at Rs.2000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media=""
+                                    srcset="../dist/img/carousel-img/andrea-davis-OBV5XREI-ig-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/andrea-davis-OBV5XREI-ig-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img"
+                                    loading="lazy">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-2</span>
+                        <p class="h-price">Book now at Rs.3000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-2</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media="" srcset="../dist/img/carousel-img/dad-hotel-P6B7y6Gnyzw-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/dad-hotel-P6B7y6Gnyzw-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img"
+                                    loading="lazy">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-3</span>
+                        <p class="h-price">Book now at Rs.10000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-3</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media="" srcset="../dist/img/carousel-img/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img"
+                                    loading="lazy">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-4</span>
+                        <p class="h-price">Book now at Rs.8000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-4</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media=""
+                                    srcset="../dist/img/carousel-img/ralph-katieb-HV7_JFOmJ7Y-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/ralph-katieb-HV7_JFOmJ7Y-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-5</span>
+                        <p class="h-price">Book now at Rs.9000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-5</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media="" srcset="../dist/img/carousel-img/taiga-ishii-mukO8Po_LZ8-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/taiga-ishii-mukO8Po_LZ8-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-6</span>
+                        <p class="h-price">Book now at Rs.7000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-6</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media=""
+                                    srcset="../dist/img/carousel-img/shobhit-sharma-8TrcnRMap90-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/shobhit-sharma-8TrcnRMap90-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-7</span>
+                        <p class="h-price">Book now at Rs.12000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-7</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-cell cell hostel-slide">
+                        <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                            <picture>
+                                <source media="" srcset="../dist/img/carousel-img/pang-yuhao-wCi28eq8TF4-unsplash.jpg">
+                                <img src="../dist/img/carousel-img/pang-yuhao-wCi28eq8TF4-unsplash.jpg"
+                                    alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                            </picture>
+                        </a>
+                        <span class="h-span">Hostel-8</span>
+                        <p class="h-price">Book now at Rs.30000/-</p>
+                        <div class="hostel-location-detail">
+                            <h4>Hostel-8</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione deserunt tempora
+                                facere rerum molestiae illum fugit praesentium debitis ut facilis voluptas quae quo aut
+                                explicabo, quidem ipsam necessitatibus eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cityvise" class="cityvise">
+        <div class="cityvise-parent">
+            <div class="choose-by-city">
+                <span>Choose by city vise</span>
+            </div>
+            <div class="cityvise-child">
+                <div class="cityvise-grid city-child-grid1">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-alina-levkovich-16211569.jpg">
+                            <img src="../dist/img/City-vise/pexels-alina-levkovich-16211569.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Rajkot</span>
+                </div>
+                <div class="cityvise-grid city-child-grid2">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-amar-preciado-16230538.jpg">
+                            <img src="../dist/img/City-vise/pexels-amar-preciado-16230538.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Ahemdabad</span>
+                </div>
+                <div class="cityvise-grid city-child-grid3">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-cottonbro-studio-5137963.jpg">
+                            <img src="../dist/img/City-vise/pexels-cottonbro-studio-5137963.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Surat</span>
+                </div>
+                <div class="cityvise-grid city-child-grid4">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-dylann-hendricks-15889675.jpg">
+                            <img src="../dist/img/City-vise/pexels-dylann-hendricks-15889675.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Jamnagar</span>
+                </div>
+                <div class="cityvise-grid city-child-grid5">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-josh-hild-14750510.jpg">
+                            <img src="../dist/img/City-vise/pexels-josh-hild-14750510.jpg" alt="this is carausel image"
+                                height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Gandhinagar</span>
+                </div>
+                <div class="cityvise-grid city-child-grid6">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-justyna-serafin-10283686.jpg">
+                            <img src="../dist/img/City-vise/pexels-justyna-serafin-10283686.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Baroda</span>
+                </div>
+                <div class="cityvise-grid city-child-grid7">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-mathias-reding-15345843.jpg">
+                            <img src="../dist/img/City-vise/pexels-mathias-reding-15345843.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Vadodara</span>
+                </div>
+                <div class="cityvise-grid city-child-grid8">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-pelageia-zelenina-8913996.jpg">
+                            <img src="../dist/img/City-vise/pexels-pelageia-zelenina-8913996.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Valsad</span>
+                </div>
+                <div class="cityvise-grid city-child-grid9">
+                    <a href="javascript:void(0)" rel="follow" area-label="this is hostel main image">
+                        <picture>
+                            <source media="" srcset="../dist/img/City-vise/pexels-serhii-volyk-12205277.jpg">
+                            <img src="../dist/img/City-vise/pexels-serhii-volyk-12205277.jpg"
+                                alt="this is carausel image" height="100%" width="100%" class="caraus-main-img">
+                        </picture>
+                    </a>
+                    <span class="cityvise-span1">Starting at <span id="cityvise-dy-price1" class="cityvise-span2">Rs
+                            5000/-</span></span>
+                    <span id="dy-city-name1" class="cityvise-span3">Surendranagar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="footer">
+        <div class="footer-parent">
+            <div class="footer-child">
+                <div class="footer-flex-child footer-flex-child1">
+                    <div class="footer-ul-parent">
+                        <ul>
+                            <li class="bli"><button type="button" class="left-footer-btns special" id="offerBtn">Our
+                                    offering</button>
+                            </li>
+                            <li class="bli"><button type="button" class="left-footer-btns" id="quickLinkBtn">Quick
+                                    links</button>
+                            </li>
+                            <li class="bli"><button type="button" class="left-footer-btns" id="popularBtn">Popular
+                                    destination</button>
+                            </li>
+                            <li class="bli"><button type="button" class="left-footer-btns" id="connectBtn">Connect with
+                                    us
+                            </li>
+                            <li class="bli"><button type="button" class="left-footer-btns" id="insightBtn">Hostel
+                                    Essentials
+                                    insights</button>
+                            </li>
+                            <li class="bli"><button type="button" class="left-footer-btns"
+                                    id="offer2Btn">Offers</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-flex-child footer-flex-child2" id="inserted-footer-uls">
+                    <div class="footer-h2-parent">
+                        <h2 id="footer-h2">Make your searching easy with range of products and services.</h2>
+                    </div>
+                    <div class="footer-h2-dec">
+                        <div class="footer-ul-parent2">
+                            <ul id="footer-ul-in1">
+                                <li><a href="javascript:void(0)" rel="follow" area-label="Hostel">Hostel</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="Rooms">Rooms</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem lorem</a>
+                                </li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-ul-parent2">
+                            <ul id="footer-ul-in2">
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem lorem</a>
+                                </li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem lorem
+                                        lorem</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-ul-parent2">
+                            <ul id="footer-ul-in3">
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem lorem</a>
+                                </li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-ul-parent2">
+                            <ul id="footer-ul-in4">
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem lorem lorem</a>
+                                </li>
+                                <li><a href="javascript:void(0)" rel="follow" area-label="lorem">lorem</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-logo-parent">
+                <div class="footer-logo-child">
+                    <div class="f-flex-child f-logo-60">
+                        <div class="f-logo-flex">
+                            <div class="f-main-logo-width">
+                                <a href="javascript:void(0)" rel="follow" area-label="this is hostel main logo">
+                                    <picture>
+                                        <source media="" srcset="../dist/img/logo/logo3.png">
+                                        <img src="../dist/img/logo/logo3.png" alt="this is hostel essentials main logo"
+                                            height="100%" width="100%" class="footer-main-logo">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="f-logo-span">
+                                <span>Hostel Essentials</span>
+                            </div>
+                        </div>
+                        <p class="footer-logo-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores
+                            aliquid corporis
+                            inventore, illum doloribus, magni aspernatur reiciendis rem repudiandae qui! Maiores
+                            tempora quasi accusantium magnam odit sit minima rem!</p>
+                    </div>
+                    <div class="f-flex-child f-logo-20 f-flex-child1">
+                        <div class="download-app-h2">
+                            <h2>download hostel Essentials app</h2>
+                        </div>
+                        <div class="download-app-img">
+                            <div class="download-playStore">
+                                <a href="javascript:void(0)" rel="follow" area-label="this is playstore download link">
+                                    <picture>
+                                        <source media="" srcset="../dist/img/footer-logos/playstore-img.png">
+                                        <img src="../dist/img/footer-logos/playstore-img.png"
+                                            alt="this is hostel essentials main logo" height="100%" width="100%"
+                                            class="">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="download-appStore">
+                                <a href="javascript:void(0)" rel="follow" area-label="this is appstore download link">
+                                    <picture>
+                                        <source media="" srcset="../dist/img/footer-logos/appstore-img.png">
+                                        <img src="../dist/img/footer-logos/appstore-img.png"
+                                            alt="this is hostel essentials main logo" height="100%" width="100%"
+                                            class="">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-flex-child f-logo-20 f-flex-child2">
+                        <div class="scan-qr-h2">
+                            <h2>Scan qr code</h2>
+                        </div>
+                        <div class="qr-code-footer">
+                            <a href="javascript:void(0)" rel="follow" area-label="this is qr code for footer">
+                                <picture>
+                                    <source media="" srcset="../dist/img/QR code/QR code.png">
+                                    <img src="../dist/img/QR code/QR code.png" alt="this is qr code img" height="100%"
+                                        width="100%" class="">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy-right">
+            <div class="footer-copy-parent">
+                <div class="footer-copy-child1">
+                    <span>Copyright <span><i class="fa-regular fa-copyright"></i></span><span
+                            id="copy-right-year">2023</span><span>Hostel Essentials</span></span>
+                </div>
+                <div class="footer-copy-child1">
+                    <!--images here-->
+                </div>
+            </div>
+            <div class="scroll-top">
+                <a href="#" area-label="this is scroll to top button">
+                    <i class="fa-solid fa-circle-chevron-up"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="../dist/js/main.js"></script>
+</body>
+
+</html>

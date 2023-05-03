@@ -1,0 +1,53 @@
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    html{
+        font-size: 14px;
+    }
+
+    .log-sign-1{
+        width: 100%;
+    }
+
+    .city-main-width{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .city-div-1,.city-div-2,.city-div-3,.city-date-1,.city-date-2,.city-date-3{
+        width: 100%;
+        margin: 0.3em 0;
+    }
+
+    .datePicker{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5em;
+    }
+
+    .hostel-subof-2{
+        font-size: 1.2rem;
+    }
+
+    .offer-slide,.hostel-slide{
+        width: 100%;
+    }
+
+    .h-price{
+        font-size: 0.9rem;
+    }
+
+    .city-div-3{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-menu,.log-sign-2{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1550px) {
+    .h-price{
+        font-size: 1rem;
+    }
+}

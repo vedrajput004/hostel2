@@ -1,0 +1,24 @@
+// filter option section
+.filter-hostel-city {
+    @include filterHostelBg2;
+}
+
+.city-submit {
+    color: #fff;
+    background: $orangeColor;
+}
+
+.price-button button {
+    @include filterHostelBg2;
+    width: 60%;
+    border-radius: 0.2em;
+}
+
+.scroll-top i {
+    color: $blueColor2;
+}
+
+// view property section
+.view-prop {
+    @include viewRoom;
+}

@@ -1,0 +1,35 @@
+@mixin filterHostelBg {
+  background: rgb(27, 36, 48);
+  background: linear-gradient(
+    80deg,
+    rgba(27, 36, 48, 1) 0%,
+    rgba(80, 90, 102, 1) 75%
+  );
+}
+
+// blue gradient varient
+
+@mixin filterHostelBg2 {
+  background: rgb(0, 61, 255);
+  background: linear-gradient(
+    80deg,
+    rgba(0, 61, 255, 1) 0%,
+    rgba(0, 164, 255, 1) 75%
+  );
+}
+
+@mixin filterHostelBg3 {
+  background: rgb(184, 145, 70);
+  background: linear-gradient(
+    90deg,
+    rgba(184, 145, 70, 1) 20%,
+    rgba(227, 166, 51, 1) 56%,
+    rgba(215, 161, 56, 1) 88%
+  );
+}
+
+// view room btn mixin
+@mixin viewRoom {
+  color: #fff;
+  background: $orangeColor;
+}
